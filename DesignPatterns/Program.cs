@@ -6,7 +6,8 @@ namespace DesignPatterns
     {
         static void Main()
         {
-            Creational.AbstractFactory.Test.Run();
+            //Creational.AbstractFactory.Test.Run();
+            Creational.Builder.Test.Run();
             Console.Read();
         }
     }
