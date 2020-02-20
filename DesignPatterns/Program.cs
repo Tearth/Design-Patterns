@@ -10,7 +10,9 @@ namespace DesignPatterns
             //Creational.Builder.Test.Run();
             //Creational.FactoryMethod.Test.Run();
             //Creational.Singleton.Singleton.Instance.WriteHello();
-            Creational.Prototype.Test.Run();
+            //Creational.Prototype.Test.Run();
+
+            Structural.Proxy.Test.Run();
 
             Console.Read();
         }
