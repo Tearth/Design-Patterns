@@ -16,7 +16,8 @@ namespace DesignPatterns
             //Structural.Decorator.Test.Run();
             //Structural.Adapter.Test.Run();
             //Structural.Bridge.Test.Run();
-            Structural.Facade.Test.Run();
+            //Structural.Facade.Test.Run();
+            Structural.Composite.Test.Run();
 
             Console.Read();
         }
