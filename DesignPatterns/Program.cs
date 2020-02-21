@@ -13,7 +13,8 @@ namespace DesignPatterns
             //Creational.Prototype.Test.Run();
 
             //Structural.Proxy.Test.Run();
-            Structural.Decorator.Test.Run();
+            //Structural.Decorator.Test.Run();
+            Structural.Adapter.Test.Run();
 
             Console.Read();
         }
