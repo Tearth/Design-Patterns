@@ -12,7 +12,8 @@ namespace DesignPatterns
             //Creational.Singleton.Singleton.Instance.WriteHello();
             //Creational.Prototype.Test.Run();
 
-            Structural.Proxy.Test.Run();
+            //Structural.Proxy.Test.Run();
+            Structural.Decorator.Test.Run();
 
             Console.Read();
         }
