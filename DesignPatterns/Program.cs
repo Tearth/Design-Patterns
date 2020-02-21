@@ -14,7 +14,8 @@ namespace DesignPatterns
 
             //Structural.Proxy.Test.Run();
             //Structural.Decorator.Test.Run();
-            Structural.Adapter.Test.Run();
+            //Structural.Adapter.Test.Run();
+            Structural.Bridge.Test.Run();
 
             Console.Read();
         }
