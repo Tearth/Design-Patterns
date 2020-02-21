@@ -7,9 +7,10 @@ namespace DesignPatterns.Creational.FactoryMethod
         public static void Run()
         {
             var planetsFactory = new PlanetsFactory();
-            var earth = planetsFactory.Create(PlanetType.Earth);
-            var mars = planetsFactory.Create(PlanetType.Mars);
-            var jupiter = planetsFactory.Create(PlanetType.Jupiter);
+
+            IPlanet earth = planetsFactory.Create(PlanetType.Earth);
+            IPlanet mars = planetsFactory.Create(PlanetType.Mars);
+            IPlanet jupiter = planetsFactory.Create(PlanetType.Jupiter);
 
             Console.WriteLine($"Created Earth with {earth.Color} color");
             Console.WriteLine($"Created Mars with {mars.Color} color");

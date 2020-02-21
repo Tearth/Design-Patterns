@@ -6,8 +6,8 @@ namespace DesignPatterns.Creational.Builder
     {
         public static void Run()
         {
-            var falconRocketBuilder = new FalconRocketBuilder();
-            var saturnRocketBuilder = new SaturnRocketBuilder();
+            IRocketBuilder falconRocketBuilder = new FalconRocketBuilder();
+            IRocketBuilder saturnRocketBuilder = new SaturnRocketBuilder();
             var vehicleAssembly = new VehicleAssembly();
 
             var falconRocket = vehicleAssembly.Construct(falconRocketBuilder);

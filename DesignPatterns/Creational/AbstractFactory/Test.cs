@@ -6,17 +6,17 @@ namespace DesignPatterns.Creational.AbstractFactory
     {
         public static void Run()
         {
-            var rockyPlanetsFactory = new RockyPlanetsFactory();
-            var gasPlanetsFactory = new GasPlanetsFactory();
+            IPlanetsFactory rockyPlanetsFactory = new RockyPlanetsFactory();
+            IPlanetsFactory gasPlanetsFactory = new GasPlanetsFactory();
 
             var firstSolarSystemGenerator = new SolarSystemGenerator(rockyPlanetsFactory);
             var secondSolarSystemGenerator = new SolarSystemGenerator(gasPlanetsFactory);
 
-            Console.WriteLine("First solar system:");
+            Console.WriteLine("First solar system");
             firstSolarSystemGenerator.Generate();
 
             Console.WriteLine();
-            Console.WriteLine("Second solar system:");
+            Console.WriteLine("Second solar system");
             secondSolarSystemGenerator.Generate();
         }
     }

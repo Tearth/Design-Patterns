@@ -4,9 +4,9 @@
     {
         public static void Run()
         {
-            var christmasTree = new ChristmasTree();
-            var christmasTreeWithLights = new ChristmasTreeWithLights(christmasTree);
-            var christmasTreeWithLightsAndOrnaments = new ChristmasTreeWithOrnaments(christmasTreeWithLights);
+            ITree christmasTree = new ChristmasTree();
+            ITree christmasTreeWithLights = new ChristmasTreeWithLights(christmasTree);
+            ITree christmasTreeWithLightsAndOrnaments = new ChristmasTreeWithOrnaments(christmasTreeWithLights);
 
             christmasTreeWithLightsAndOrnaments.WriteInfo();
         }

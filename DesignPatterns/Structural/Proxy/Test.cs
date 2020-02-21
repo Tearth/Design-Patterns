@@ -4,7 +4,7 @@
     {
         public static void Run()
         {
-            var engine = new EngineProxy();
+            IEngine engine = new EngineProxy();
             engine.Start();
             engine.Start();
             engine.Stop();
