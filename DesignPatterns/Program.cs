@@ -27,7 +27,8 @@ namespace DesignPatterns
             //Behavioral.Mediator.Test.Run();
             //Behavioral.Memento.Test.Run();
             //Behavioral.Observer.Test.Run();
-            Behavioral.State.Test.Run();
+            //Behavioral.State.Test.Run();
+            Behavioral.Strategy.Test.Run();
 
             Console.Read();
         }
