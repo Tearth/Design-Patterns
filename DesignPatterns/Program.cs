@@ -23,7 +23,8 @@ namespace DesignPatterns
             //Behavioral.ChainOfResp.Test.Run();
             //Behavioral.Command.Test.Run();
             //Behavioral.Interpreter.Test.Run();
-            Behavioral.Iterator.Test.Run();
+            //Behavioral.Iterator.Test.Run();
+            Behavioral.Mediator.Test.Run();
 
             Console.Read();
         }
