@@ -21,7 +21,8 @@ namespace DesignPatterns
             //Structural.Flyweight.Test.Run();
 
             //Behavioral.ChainOfResp.Test.Run();
-            Behavioral.Command.Test.Run();
+            //Behavioral.Command.Test.Run();
+            Behavioral.Interpreter.Test.Run();
 
             Console.Read();
         }
