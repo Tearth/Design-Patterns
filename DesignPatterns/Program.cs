@@ -29,7 +29,8 @@ namespace DesignPatterns
             //Behavioral.Observer.Test.Run();
             //Behavioral.State.Test.Run();
             //Behavioral.Strategy.Test.Run();
-            Behavioral.TemplateMethod.Test.Run();
+            //Behavioral.TemplateMethod.Test.Run();
+            Behavioral.Visitor.Test.Run();
 
             Console.Read();
         }
