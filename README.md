@@ -17,18 +17,18 @@ Define the ways of communication between objects.
 
 ## Creational patterns
 Define the ways of creating objects using hidden logic instead of directly `new` keyword use.
- - [Abstract Factory](./DesignPatterns/Behavioral/AbstractFactory/) - creates instances of the specified class family
- - [Builder](./DesignPatterns/Behavioral/Builder/) - constructs instances with a few steps
- - [Factory Method](./DesignPatterns/Behavioral/FactoryMethod/) - creates instances of the derived classes
- - [Prototype](./DesignPatterns/Behavioral/Prototype/) - creates instance by copying or cloning other object
- - [Singleton](./DesignPatterns/Behavioral/Singleton/) - ensures that there is only one instance of the class
+ - [Abstract Factory](./DesignPatterns/Creational/AbstractFactory/) - creates instances of the specified class family
+ - [Builder](./DesignPatterns/Creational/Builder/) - constructs instances with a few steps
+ - [Factory Method](./DesignPatterns/Creational/FactoryMethod/) - creates instances of the derived classes
+ - [Prototype](./DesignPatterns/Creational/Prototype/) - creates instance by copying or cloning other object
+ - [Singleton](./DesignPatterns/Creational/Singleton/) - ensures that there is only one instance of the class
 
 ## Structural patterns
 Define the ways of composing objects and classes to add or change functionality.
- - [Adapter](./DesignPatterns/Behavioral/Adapter/) - matches interfaces of different classes
- - [Bridge](./DesignPatterns/Behavioral/Bridge/) - separates interface from its implementation
- - [Composite](./DesignPatterns/Behavioral/Composite/) - composes object with tree structure
- - [Decorator](./DesignPatterns/Behavioral/Decorator/) - adds new responsibilities to the existing class
- - [Facade](./DesignPatterns/Behavioral/Facade/) - represents a few subsystems
- - [Flyweight](./DesignPatterns/Behavioral/Flyweight/) - small and reusable objects
- - [Proxy](./DesignPatterns/Behavioral/Proxy/) - controlls the access to the object
+ - [Adapter](./DesignPatterns/Structural/Adapter/) - matches interfaces of different classes
+ - [Bridge](./DesignPatterns/Structural/Bridge/) - separates interface from its implementation
+ - [Composite](./DesignPatterns/Structural/Composite/) - composes object with tree structure
+ - [Decorator](./DesignPatterns/Structural/Decorator/) - adds new responsibilities to the existing class
+ - [Facade](./DesignPatterns/Structural/Facade/) - represents a few subsystems
+ - [Flyweight](./DesignPatterns/Structural/Flyweight/) - small and reusable objects
+ - [Proxy](./DesignPatterns/Structural/Proxy/) - controlls the access to the object
